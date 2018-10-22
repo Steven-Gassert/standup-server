@@ -1,0 +1,37 @@
+{
+  "name": "standup-server",
+  "version": "1.0.0",
+  "description": "Server which will receive requests and send Standups to Slack users",
+  "main": "server.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevengassert94/standup-server.git"
+  },
+  "keywords": [
+    "standup",
+    "slack",
+    "bot",
+    "github"
+  ],
+  "author": "Steven Gassert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevengassert94/standup-server/issues"
+  },
+  "homepage": "https://github.com/stevengassert94/standup-server#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "eslint": "^5.7.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4",
+    "proxyquire": "^2.1.0",
+    "sinon": "^7.0.0",
+    "supertest": "^3.3.0",
+    "winston": "^3.1.0"
+  }
+}
